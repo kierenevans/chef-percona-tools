@@ -12,7 +12,7 @@ recipe "percona-tools::percona_tools",      "Installs the Percona Toolkit and Pe
 
 depends "yum", "~> 3.0"
 depends "mysql-chef_gem", ">= 0.0.0"
-depends "database", "~> 2.1"
+depends "database"
 depends "openssl"
 
 supports "centos", ">= 6.4"
